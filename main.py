@@ -7,7 +7,7 @@ import csv
 
 app = FastAPI()
 SCRAPED_FILE = "scraped_data.csv"
-CATEGORY_URL = "https://www.argos.co.uk/browse/home-and-furniture/c:29351/"
+CATEGORY_URL = "https://www.argos.co.uk/browse/home-and-furniture/office-furniture/office-chairs/c:29604/"
 
 @app.get("/", response_class=HTMLResponse)
 def dashboard():
